@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calcProject.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <form name="calc">
+    <input id="button" type="text" name="visor">
+    <table>
+        <tbody>
+            <tr>
+                <td><input type="button" value="7" onclick="botao(value)"></td>
+                <td><input type="button" value="8" onclick="botao(value)"></td>
+                <td><input type="button" value="9" onclick="botao(value)"></td>
+                <td><input type="button" value="DEL" onclick="dele()"></td>
+                <td><input style="background-color:red; color: rgb(255, 255, 255);", type="button" value="AC" onclick="reset()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="botao(value)"></td>
+                <td><input type="button" value="5" onclick="botao(value)"></td>
+                <td><input type="button" value="6" onclick="botao(value)"></td>
+                <td><input type="button" value="&#215" onclick="botao('*')"></td>
+                <td><input type="button" value="&#247" onclick="botao('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="botao(value)"></td>
+                <td><input type="button" value="2" onclick="botao(value)"></td>
+                <td><input type="button" value="3" onclick="botao(value)"></td>
+                <td><input type="button" value="+" onclick="botao(value)"></td>
+                <td><input type="button" value="-" onclick="botao(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="botao(value)"></td>
+                <td><input type="button" value="." onclick="botao(value)"></td>
+                <td><input type="button" value="&#960" onclick="botao(3.1415)"></td>
+                <td><input type="button" value="&#37" onclick="botao('/100')"></td>
+                <td><input type="button" value="=" onclick="equalTo()"></td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>

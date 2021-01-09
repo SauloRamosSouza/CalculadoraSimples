@@ -1,0 +1,59 @@
+
+
+body {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(17, 19, 19);
+    padding: 0px;
+    
+}
+
+form {
+    background-color: rgb(34, 32, 31);
+}
+
+h1 {
+    color:  black;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(243, 231, 231); 
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 25px;
+}
+
+input {
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;   
+    border: 3px solid rgb(0, 0, 0); 
+}
+
+#button {
+    width: justify;
+    margin: auto;
+    font-size: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    padding: 0px;
+  
+}
+
+td, th {
+  margin: 0px;
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 0px;
+  
+}
+
+table{
+  width: 100%;
+  margin-bottom : .5em;
+  table-layout: fixed;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+}
